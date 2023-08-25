@@ -1,15 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
 import "./styles/home.scss";
 export default function Home() {
   return (
     <main className="container">
       <Header />
-      <div className="experience">
-        <h3>Experience</h3>
-        <p>2 years working as a Software Developer.</p>
-        <div className="experiende-time"></div>
-      </div>
+      <Experience />
       <div className="infos">
       <h3>Languages</h3>
         <div className="languages-info">
